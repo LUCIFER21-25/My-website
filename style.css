@@ -1,9 +1,20 @@
-@import url('http://fonts.cdnfonts.com/css/harry-potter');
+.your-style{
+	font-family: 'Harry Potter';
+	font-weight: normal;
+	font-style: normal;
+}
+
 
 @font-face {
-	font-family:'HarryPotter';
-	src= url('HARRP__.TTF');
+    font-family: 'Harry Potter';
+    src: url('HarryPotter.woff2') format('woff2'),
+        url('HarryPotter.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
+
+
 body{
 	background-color: black;
 	color: white;
@@ -12,12 +23,12 @@ body{
 
 h1 {
 	font-weight: bold;
-	font-family: 'HarryPotter', sans-serif; 
+	font-family: 'Harry Potter', sans-serif; 
 	font-size: 4rem;
 	padding-top: 50px;
 }
 h2{
-	font-family: 'HarryPotter', sans-serif; 
+	font-family: 'Harry Potter', sans-serif; 
 	font-size: 5rem;
 	text-align: center;
 	background-color: black;
@@ -31,7 +42,7 @@ nav{
 
 a{
 	text-decoration: none;
-	font-family: 'HarryPotter', sans-serif; 
+	font-family: 'Harry Potter', sans-serif; 
 
 }
 .a1:link {
@@ -110,7 +121,7 @@ a{
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
-  font-family: 'HarryPotter', sans-serif; 
+  font-family: 'Harry Potter', sans-serif; 
 }
 .hobbies{
 	color: whitesmoke;
