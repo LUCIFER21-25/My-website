@@ -1,0 +1,148 @@
+body{
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+
+h1 {
+	font-weight: bold;
+	font-family: 'Harry Potter', sans-serif; 
+	font-size: 4rem;
+	padding-top: 50px;
+}
+h2{
+	font-family: 'Harry Potter', sans-serif; 
+	font-size: 5rem;
+	text-align: center;
+	background-color: black;
+	color: #FAC213;;
+}
+
+nav{
+	/*text: yellow;*/
+	font-size: 2rem;
+}
+
+a{
+	text-decoration: none;
+	font-family: 'Harry Potter', sans-serif; 
+
+}
+.a1:link {
+	font-size: 2rem;
+	color: #990000;
+}
+
+.a1:visited{
+	font-size: 2rem;
+	color: #990000;
+}
+
+.a2:link {
+	color: #FAC213;
+}
+.a2:visited{
+	font-size: 3rem;
+	color: #FAC213;
+}
+.i1{
+	width: 200px;
+	height: 200px;
+}
+.i2{
+	width: 200px;
+	height: 300px;
+}
+
+.t{
+	font-size: 3rem;
+	font-family: 'Aboreto', cursive;
+}
+
+.table1{
+	border: 1px;
+	border-color: lightyellow;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #FAC213;
+  font-size: 1.5rem;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: #990000;
+  font-size: 2rem;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'Harry Potter', sans-serif; 
+}
+.hobbies{
+	color: whitesmoke;
+	font-size: 2rem;
+	font-family: 'Alumni Sans Pinstripe', sans-serif;
+}
+.check{
+	color: whitesmoke;
+	font-size: 2rem;
+	font-family: 'Alumni Sans Pinstripe', sans-serif;
+}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   font-size: 1.5rem;
+   background-color: #D61C4E;
+   color: whitesmoke;
+   text-align: center;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
